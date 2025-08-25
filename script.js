@@ -44,7 +44,7 @@ const perguntas = [
 
 let atual=0;
 let perguntaAtual;
-let historiaFinal=""
+let historiaFinal="";
 
 
 function mostraPergunta(){
@@ -67,7 +67,7 @@ mostraPergunta();
 
 function mostraResultado(){
 caixaPerguntas.textContent = "em 2049...";
-textoResultado.textContent=historiaFinal
+textoResultado.textContent=historiaFinal;
 caixaAlternativas.textContent="";
 }
 
