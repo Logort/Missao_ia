@@ -51,10 +51,21 @@ const perguntas = [
 
 let atual=0;
 let perguntaAtual;
+let historiaFinal=""
+
 
 function mostraPergunta(){
     perguntaAtual=perguntas[atual];
     caixaPerguntas.textContent=perguntaAtual.enunciado;
+}
+
+function mostraAlternativas(){
+for(const alternativa of perguntaAtual.atual){
+const botaoAlternativa = document.createElement("button");
+botaoAlternativa
+
+}
+
 }
 
 mostraPergunta();
