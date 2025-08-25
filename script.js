@@ -48,6 +48,9 @@ let historiaFinal="";
 
 
 function mostraPergunta(){
+    if(atual>= perguntas.length){
+        mostraResultado();
+    }
 }
 
 function mostraAlternativas(){
